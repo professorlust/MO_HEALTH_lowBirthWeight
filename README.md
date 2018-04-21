@@ -7,9 +7,20 @@
 [![](https://img.shields.io/github/repo-size/slu-soc1120/MO_HEALTH_lowBirthWeight.svg)](https://github.com/slu-soc1120/MO_HEALTH_lowBirthWeight/)
 
 ### Abstract
+This repository contains a map image of counties in Missouri, colored by their 2016 estimated low birth weight births as a percentage of the total number of live births. These data were obtained from the County Health Ranks 2016 data release for Missouri. I use this map for teaching about low birth weight (part of the gender section of the course).
 
 ### Preview
+![](2016/results/lbwMap16-trans.png)
 
+### Resources
+* [County Health Rankings](http://www.countyhealthrankings.org)
+* [Acevedo-Garcia et al 2005](http://pediatrics.aappublications.org/content/115/1/e20.short)
+* [Collins et al 2004](https://ajph.aphapublications.org/doi/abs/10.2105/AJPH.94.12.2132)
+* [David and Collins 1997](http://www.nejm.org/doi/full/10.1056/NEJM199710233371706)
+* [Osypuk and Acevedo-Garcia 2007](https://academic.oup.com/aje/article/167/11/1295/131712)
+
+### Citing These Images
+This repository is associated with a [Digital Object Identifier](https://en.wikipedia.org/wiki/Digital_object_identifier) (or DOI). Please include the DOI when citing these images. You can find pre-formatted citations and a BibTeX entry, among other citation resources, on the associated [Zenodo release page]().
 
 ## About SOC 1120: Introduction to Sociology - Diversity and Health Emphasis
 ### Course Description
