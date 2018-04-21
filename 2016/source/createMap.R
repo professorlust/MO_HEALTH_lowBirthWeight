@@ -42,19 +42,16 @@ birthData %>%
   rename(liveBirths = `Number of Live Births`) %>%
   mutate(pctLow = (lowBirths/liveBirths)*100) %>%
   mutate(FIPS = as.character(FIPS)) %>%
-  select(FIPS, pctLow) -> lowBirth
+  select(FIPS, pctLow) %>%
+  cp_breaks(var = pctLow, newvar = lowJenks, classes = 5, style = "jenks") -> lowBirth
   
 ### combine spatial and geometric data
 birthMap <- left_join(moCounties, lowBirth, by = c("GEOID" = "FIPS"))
 
-
-jenks <- classIntervals(birthMap$pctLow, n=5, style="jenks")
-lbw <- cut(birthMap$pctLow, breaks = c(jenks$brks))
-
 ## base map
 base <- ggplot() + 
   geom_sf(data = mo, fill = "#ffffff", color = NA) + 
-  geom_sf(data = birthMap, mapping = aes(fill = lbw), color = NA) +
+  geom_sf(data = birthMap, mapping = aes(fill = lowJenks), color = NA) +
   geom_sf(data = mo, fill = NA, color = "#000000", size = .25) +
   scale_fill_brewer(palette = "RdPu", name = "Percent",
                     labels = c("3.83 - 6.68", "6.69 - 7.80", "7.81 - 8.84", "8.85 - 10.60", "10.61 - 13.70")) +
