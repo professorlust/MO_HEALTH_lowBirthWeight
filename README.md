@@ -5,6 +5,7 @@
 [![](https://img.shields.io/github/release/slu-soc1120/MO_HEALTH_lowBirthWeight.svg?label=version)](https://github.com/slu-soc1120/MO_HEALTH_lowBirthWeight/releases)
 [![](https://img.shields.io/github/last-commit/slu-soc1120/MO_HEALTH_lowBirthWeight.svg)](https://github.com/slu-soc1120/MO_HEALTH_lowBirthWeight/commits/master)
 [![](https://img.shields.io/github/repo-size/slu-soc1120/MO_HEALTH_lowBirthWeight.svg)](https://github.com/slu-soc1120/MO_HEALTH_lowBirthWeight/)
+[![DOI](https://zenodo.org/badge/129010374.svg)](https://zenodo.org/badge/latestdoi/129010374)
 
 ### Abstract
 This repository contains a map image of counties in Missouri, colored by their 2016 estimated low birth weight births as a percentage of the total number of live births. These data were obtained from the County Health Ranks 2016 data release for Missouri. I use this map for teaching about low birth weight (part of the gender section of the course).
