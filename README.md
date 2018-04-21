@@ -21,7 +21,7 @@ This repository contains a map image of counties in Missouri, colored by their 2
 * [Osypuk and Acevedo-Garcia 2007](https://academic.oup.com/aje/article/167/11/1295/131712)
 
 ### Citing These Images
-This repository is associated with a [Digital Object Identifier](https://en.wikipedia.org/wiki/Digital_object_identifier) (or DOI). Please include the DOI when citing these images. You can find pre-formatted citations and a BibTeX entry, among other citation resources, on the associated [Zenodo release page]().
+This repository is associated with a [Digital Object Identifier](https://en.wikipedia.org/wiki/Digital_object_identifier) (or DOI). Please include the DOI when citing these images. You can find pre-formatted citations and a BibTeX entry, among other citation resources, on the associated [Zenodo release page](https://zenodo.org/record/1226412).
 
 ## About SOC 1120: Introduction to Sociology - Diversity and Health Emphasis
 ### Course Description
